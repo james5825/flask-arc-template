@@ -5,4 +5,5 @@
 4. use command 'flask run' to start the flask
 5. open browser and go http://127.0.0.1:5000/
 
+# template stacks
 ![Structure](https://github.com/james5825/flask-arc-template/blob/main/arc.jpg)
