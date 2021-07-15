@@ -16,6 +16,9 @@ app.register_blueprint(bp_api_a, url_prefix=url_prefix_apis)
 from backend.api_b._route_api_b import bp_api_b
 app.register_blueprint(bp_api_b, url_prefix=url_prefix_apis)
 
+from backend.api_c._route_api_c import bp_api_c
+app.register_blueprint(bp_api_c, url_prefix=url_prefix_apis)
+
 ################################################################
 # frontend view model tempalte
 ################################################################
