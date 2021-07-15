@@ -64,3 +64,13 @@ def api8():
     op1 = request.args.get('op1')
     op2 = request.args.get('op2')
     return some_ml_8(op1, op2)
+
+'''
+example of utilize ml
+http://127.0.0.1:5000/apis/api9
+postman>> POST>> Body>> raw>> JSON: {"op1":"str1", "op2": "str2"}
+'''
+@bp_api_b.route('/api9',  methods=['POST'])
+def api9():
+    content = request.json
+    return some_ml_8(content["op1"], content["op2"])
